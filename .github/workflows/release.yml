@@ -36,3 +36,5 @@ jobs:
                   draft: false
                   prerelease: false
                   files: bento-box.zip
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
