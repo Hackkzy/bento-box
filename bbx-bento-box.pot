@@ -1,0 +1,44 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bento Box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 10:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: bbx-bento-box"
+
+#. Name of the plugin
+msgid "Bento Box"
+msgstr ""
+
+#: build/bento-box/block.json:1 src/bento-box/block.json:1
+msgctxt "block description"
+msgid "Create Bento box card layout."
+msgstr ""
+
+#: build/bento-box/block.json:1 src/bento-box/block.json:1
+msgctxt "block title"
+msgid "Bento Box"
+msgstr ""
+
+#: build/bento-card/block.json:1 src/bento-card/block.json:1
+msgctxt "block title"
+msgid "Bento Card"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create Bento box card layout."
+msgstr ""
+
+#. Author of the plugin
+msgid "The WordPress Contributors"
+msgstr ""

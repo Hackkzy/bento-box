@@ -1,0 +1,77 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "bbx/bento-box",
+  "version": "1.0.0",
+  "title": "Bento Box",
+  "category": "design",
+  "description": "A customizable grid block lets users create Bento Layout in block editor.",
+  "example": {},
+  "attributes": {
+    "gridColumns": {
+      "type": "number",
+      "default": 3
+    },
+    "gridRows": {
+      "type": "number",
+      "default": 3
+    },
+    "gridGap": {
+      "type": "string",
+      "default": "1rem"
+    },
+    "enableBlurEffect": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": true,
+      "gradients": true,
+      "text": false,
+      "enableContrastChecker": true
+    },
+    "background": {
+      "backgroundImage": true,
+      "backgroundSize": true
+    },
+    "filter": {
+      "duotone": true
+    },
+    "shadow": true,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "providesContext": {
+    "bbx/bento-box-columns": "gridColumns",
+    "bbx/bento-box-rows": "gridRows",
+    "bbx/bento-box-enable-blur": "enableBlurEffect"
+  },
+  "allowedBlocks": [
+    "bbx/bento-card"
+  ],
+  "textdomain": "bbx-bento-box",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

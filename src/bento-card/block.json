@@ -1,0 +1,98 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bbx/bento-card",
+	"version": "1.0.0",
+	"title": "Bento Card",
+	"category": "widgets",
+	"example": {},
+	"attributes": {
+		"rowSpan": {
+			"type": "number",
+			"default": 1
+		},
+		"colSpan": {
+			"type": "number",
+			"default": 1
+		},
+		"hoverEffect": {
+			"type": "string"
+		},
+		"rotationDegree": {
+			"type": "number",
+			"default": 5
+		},
+		"scaleFactor": {
+			"type": "number",
+			"default": 1.05
+		},
+		"shadowIntensity": {
+			"type": "number",
+			"default": 0.2
+		},
+		"tiltDegree": {
+			"type": "number",
+			"default": 5
+		},
+		"glowIntensity": {
+			"type": "number",
+			"default": 0.5
+		},
+		"hoverShadowColor": {
+			"type": "string",
+			"default": "rgba(0, 0, 0, 0.2)"
+		},
+		"hoverGlowColor": {
+			"type": "string",
+			"default": "rgba(0, 255, 255, 0.5)"
+		}
+	},
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"gradients": true,
+			"text": true,
+			"heading": true,
+			"enableContrastChecker": true
+		},
+		"background": { "backgroundImage": true, "backgroundSize": true },
+		"filter": {
+			"duotone": true
+		},
+		"shadow": true,
+		"dimensions": {
+			"minHeight": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		}
+	},
+	"usesContext": [ "bbx/bento-box-columns", "bbx/bento-box-rows" ],
+	"allowedBlocks": [
+		"core/image",
+		"core/heading",
+		"core/paragraph",
+		"core/cover",
+		"core/code"
+	],
+	"parent": [ "bbx/bento-box" ],
+	"textdomain": "bbx-bento-box",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

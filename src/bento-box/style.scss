@@ -1,0 +1,29 @@
+// .wp-block-bbx-bento-box
+.wp-block-bbx-bento-box {
+	display: grid;
+	padding: 1rem;
+	grid-template-columns: var(--bbx-box-grid-template-columns, repeat(3, 1fr));
+	grid-gap: var(--bbx-box-grid-gap, 1rem);
+}
+
+/* Apply blur to non-hovered cards when one is hovered */
+.wp-block-bbx-bento-box.enable-blur:has(.wp-block-bbx-bento-card:hover)
+.wp-block-bbx-bento-card:not(:hover) {
+	filter: blur(2px);
+}
+
+/* Tablet view: Adjust grid for medium screens */
+@media (max-width: 768px) {
+
+	.wp-block-bbx-bento-box {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
+
+/* Mobile view: Single column for small screens */
+@media (max-width: 480px) {
+
+	.wp-block-bbx-bento-box {
+		grid-template-columns: 1fr;
+	}
+}
