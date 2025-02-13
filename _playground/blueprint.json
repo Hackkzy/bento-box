@@ -20,7 +20,7 @@
 		"step": "importWxr",
 		"file": {
 		  "resource": "url",
-		  "url": "will change later"
+		  "url": "https://raw.githubusercontent.com/Hackkzy/bento-box/refs/heads/main/_playground/export.xml"
 		}
 	  }
 	]
