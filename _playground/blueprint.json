@@ -1,0 +1,28 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/wp-admin/edit.php",
+	"login": true,
+	"steps": [
+	  {
+		"step": "installPlugin",
+		"pluginData": {
+		  "resource": "url",
+		  "url": "https://github-proxy.com/proxy/?repo=Hackkzy/bento-box&branch=main"
+		},
+		"options": {
+		  "activate": true
+		}
+	  },
+	  {
+		"step": "resetData"
+	  },
+	  {
+		"step": "importWxr",
+		"file": {
+		  "resource": "url",
+		  "url": "will change later"
+		}
+	  }
+	]
+  }
+  
