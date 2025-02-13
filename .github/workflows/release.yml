@@ -3,6 +3,8 @@ on:
     push:
         tags:
             - 'v*' # Runs when you push a tag like "v1.0.0"
+permissions:
+    contents: write
 
 jobs:
     build:
