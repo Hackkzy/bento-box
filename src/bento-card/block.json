@@ -48,7 +48,7 @@
 		},
 		"hoverShadowColor": {
 			"type": "string",
-			"default": "rgba(0, 0, 0, 0.2)"
+			"default": "rgb(0, 0, 0)"
 		},
 		"glowIntensity": {
 			"type": "number",

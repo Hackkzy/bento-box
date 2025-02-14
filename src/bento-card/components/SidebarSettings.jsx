@@ -4,7 +4,6 @@
 import { __ } from '@wordpress/i18n';
 import { InspectorControls, PanelColorSettings } from '@wordpress/block-editor';
 import {
-	ColorPicker,
 	PanelBody,
 	RangeControl,
 	SelectControl,
@@ -108,7 +107,7 @@ export default function SidebarSettings( {
 							setAttributes( { scaleFactor: newScale } )
 						}
 						min={ 1 }
-						max={ 2 }
+						max={ 1.1 }
 						step={ 0.01 }
 						__next40pxDefaultSize
 						__nextHasNoMarginBottom
