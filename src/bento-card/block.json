@@ -52,11 +52,15 @@
 		},
 		"glowIntensity": {
 			"type": "number",
-			"default": 0.5
+			"default": 15
 		},
-		"hoverGlowColor": {
+		"hoverGlowColorPrimary": {
 			"type": "string",
-			"default": "rgba(0, 255, 255, 0.5)"
+			"default": "rgb(255, 0, 255)"
+		},
+		"hoverGlowColorSecondary": {
+			"type": "string",
+			"default": "rgb(0, 255, 255)"
 		}
 	},
 	"supports": {

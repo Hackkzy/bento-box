@@ -2,7 +2,7 @@
  * WordPress dependencies
  */
 import { __ } from '@wordpress/i18n';
-import { InspectorControls } from '@wordpress/block-editor';
+import { InspectorControls, PanelColorSettings } from '@wordpress/block-editor';
 import {
 	ColorPicker,
 	PanelBody,
@@ -28,7 +28,8 @@ export default function SidebarSettings( {
 		hoverShadowColor,
 		tiltDegree,
 		glowIntensity,
-		hoverGlowColor,
+		hoverGlowColorPrimary,
+		hoverGlowColorSecondary,
 	} = attributes;
 	const gridColumns = context[ 'bbx/bento-box-columns' ] || 2;
 	const gridRows = context[ 'bbx/bento-box-rows' ] || 2;
@@ -76,10 +77,6 @@ export default function SidebarSettings( {
 						{
 							label: __( 'Rotate', 'bbx-bento-box' ),
 							value: 'rotate',
-						},
-						{
-							label: __( '3D Lift', 'bbx-bento-box' ),
-							value: '3d-lift',
 						},
 						{ label: __( 'Tilt', 'bbx-bento-box' ), value: 'tilt' },
 						{ label: __( 'Glow', 'bbx-bento-box' ), value: 'glow' },
@@ -155,12 +152,20 @@ export default function SidebarSettings( {
 							min={ 0 }
 							max={ 20 }
 						/>
-						<ColorPicker
-							label={ __( 'Shadow Color', 'bbx-bento-box' ) }
-							color={ hoverShadowColor }
-							onChangeComplete={ ( color ) =>
-								setAttributes( { hoverShadowColor: color.hex } )
-							}
+						<PanelColorSettings
+							colorSettings={ [
+								{
+									value: hoverShadowColor,
+									label: __(
+										'Shadow Color',
+										'bbx-bento-box'
+									),
+									onChange: ( newColor ) =>
+										setAttributes( {
+											hoverShadowColor: newColor,
+										} ),
+								},
+							] }
 						/>
 					</>
 				) }
@@ -185,18 +190,32 @@ export default function SidebarSettings( {
 							onChange={ ( newGlow ) =>
 								setAttributes( { glowIntensity: newGlow } )
 							}
-							min={ 0 }
-							max={ 20 }
+							min={ 5 }
+							max={ 50 }
 							step={ 1 }
 							__next40pxDefaultSize
 							__nextHasNoMarginBottom
 						/>
-						<ColorPicker
-							label={ __( 'Glow Color', 'bbx-bento-box' ) }
-							color={ hoverGlowColor }
-							onChangeComplete={ ( color ) =>
-								setAttributes( { hoverGlowColor: color.hex } )
-							}
+						<PanelColorSettings
+							title={ __( 'Glow Colors', 'bbx-bento-box' ) }
+							colorSettings={ [
+								{
+									value: hoverGlowColorPrimary,
+									label: __( 'Primary', 'bbx-bento-box' ),
+									onChange: ( newColor ) =>
+										setAttributes( {
+											hoverGlowColorPrimary: newColor,
+										} ),
+								},
+								{
+									value: hoverGlowColorSecondary,
+									label: __( 'Secondary', 'bbx-bento-box' ),
+									onChange: ( newColor ) =>
+										setAttributes( {
+											hoverGlowColorSecondary: newColor,
+										} ),
+								},
+							] }
 						/>
 					</>
 				) }
