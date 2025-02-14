@@ -9,7 +9,6 @@
 
 /* Tablet view: Adjust grid spans */
 @media (max-width: 768px) {
-
 	.wp-block-bbx-bento-card {
 		grid-column: span 2;
 		grid-row: auto;
@@ -18,7 +17,6 @@
 
 /* Mobile view: Single column layout */
 @media (max-width: 480px) {
-
 	.wp-block-bbx-bento-card {
 		grid-column: span 1;
 		grid-row: auto;
@@ -26,16 +24,16 @@
 }
 
 .wp-block-bbx-bento-card.hover-shadow:hover {
-	box-shadow:
-		0 4px 8px
-		var(--bbx-card-hover-shadow-color, rgba(0, 0, 0, var(--bbx-card-shadow-intensity, 0.2)));
+	box-shadow: var(--bbx-card-shadow-offset-x, 0)
+		var(--bbx-card-shadow-offset-y, 0) var(--bbx-card-shadow-blur, 0)
+		var(--bbx-card-shadow-spread, 0)
+		var(--bbx-card-hover-shadow-color, "#000");
 }
 
 .wp-block-bbx-bento-card.hover-scale:hover {
 	transform: scale(var(--bbx-card-scale-factor, 1.05));
 }
-
-.wp-block-bbx-bento-card.hover-rotate:hover {
+z .wp-block-bbx-bento-card.hover-rotate:hover {
 	transform: rotate(var(--bbx-card-rotation-degree, 5deg));
 }
 
@@ -45,13 +43,18 @@
 }
 
 .wp-block-bbx-bento-card.hover-tilt:hover {
-	transform:
-		rotateX(var(--bbx-card-tilt-degree, 5deg))
+	transform: rotateX(var(--bbx-card-tilt-degree, 5deg))
 		rotateY(var(--bbx-card-tilt-degree, 5deg));
 }
 
 .wp-block-bbx-bento-card.hover-glow:hover {
+	// box-shadow: 0 0 10px
+	// 	var(
+	// 		--bbx-card-hover-glow-color,
+	// 		rgba(0, 255, 255, var(--bbx-card-glow-intensity, 0.5))
+	// 	);
 	box-shadow:
-		0 0 10px
-		var(--bbx-card-hover-glow-color, rgba(0, 255, 255, var(--bbx-card-glow-intensity, 0.5)));
+		0 0 var(--bbx-card-glow-intensity) var(--bbx-card-hover-glow-color),
+		0 0 calc(var(--bbx-card-glow-intensity) * 2)
+			var(--bbx-card-hover-glow-color);
 }

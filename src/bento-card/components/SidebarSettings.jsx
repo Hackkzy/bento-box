@@ -21,10 +21,13 @@ export default function SidebarSettings( {
 		hoverEffect,
 		rotationDegree,
 		scaleFactor,
-		shadowIntensity,
+		shadowOffsetX,
+		shadowOffsetY,
+		shadowBlur,
+		shadowSpread,
+		hoverShadowColor,
 		tiltDegree,
 		glowIntensity,
-		hoverShadowColor,
 		hoverGlowColor,
 	} = attributes;
 	const gridColumns = context[ 'bbx/bento-box-columns' ] || 2;
@@ -117,18 +120,40 @@ export default function SidebarSettings( {
 				{ hoverEffect === 'shadow' && (
 					<>
 						<RangeControl
-							label={ __( 'Shadow Intensity', 'bbx-bento-box' ) }
-							value={ shadowIntensity }
-							onChange={ ( newIntensity ) =>
-								setAttributes( {
-									shadowIntensity: newIntensity,
-								} )
+							label={ __( 'Shadow Offset X', 'bbx-bento-box' ) }
+							value={ shadowOffsetX }
+							onChange={ ( newOffsetX ) =>
+								setAttributes( { shadowOffsetX: newOffsetX } )
+							}
+							min={ -20 }
+							max={ 20 }
+						/>
+						<RangeControl
+							label={ __( 'Shadow Offset Y', 'bbx-bento-box' ) }
+							value={ shadowOffsetY }
+							onChange={ ( newOffsetY ) =>
+								setAttributes( { shadowOffsetY: newOffsetY } )
+							}
+							min={ -20 }
+							max={ 20 }
+						/>
+						<RangeControl
+							label={ __( 'Shadow Blur', 'bbx-bento-box' ) }
+							value={ shadowBlur }
+							onChange={ ( newBlur ) =>
+								setAttributes( { shadowBlur: newBlur } )
 							}
 							min={ 0 }
-							max={ 1 }
-							step={ 0.1 }
-							__next40pxDefaultSize
-							__nextHasNoMarginBottom
+							max={ 20 }
+						/>
+						<RangeControl
+							label={ __( 'Shadow Spread', 'bbx-bento-box' ) }
+							value={ shadowSpread }
+							onChange={ ( newSpread ) =>
+								setAttributes( { shadowSpread: newSpread } )
+							}
+							min={ 0 }
+							max={ 20 }
 						/>
 						<ColorPicker
 							label={ __( 'Shadow Color', 'bbx-bento-box' ) }
@@ -161,8 +186,8 @@ export default function SidebarSettings( {
 								setAttributes( { glowIntensity: newGlow } )
 							}
 							min={ 0 }
-							max={ 1 }
-							step={ 0.1 }
+							max={ 20 }
+							step={ 1 }
 							__next40pxDefaultSize
 							__nextHasNoMarginBottom
 						/>
