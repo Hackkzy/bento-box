@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.7.2" created="2025-02-13 14:29" -->
+	<!-- generator="WordPress/6.7.2" created="2025-02-14 18:18" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,10 +26,10 @@
 >
 
 <channel>
-	<title>My WordPress Website</title>
+	<title>Bento Box Showcase</title>
 	<link>http://localhost:8881</link>
 	<description></description>
-	<pubDate>Thu, 13 Feb 2025 14:29:34 +0000</pubDate>
+	<pubDate>Fri, 14 Feb 2025 18:18:10 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8881</wp:base_site_url>
@@ -107,8 +107,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<guid isPermaLink="false">http://localhost:8881/?p=6</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:bbx/bento-box {"gridColumns":4,"gridRows":2,"align":"wide","backgroundColor":"contrast"} -->
-<div class="wp-block-bbx-bento-box alignwide has-contrast-background-color has-background" style="--bbx-box-grid-template-columns:repeat(4, 1fr);--bbx-box-grid-template-rows:repeat(2, 1fr);--bbx-box-grid-gap:1rem"><!-- wp:bbx/bento-card {"hoverEffect":"none","shadowIntensity":0.5,"tiltDegree":15,"glowIntensity":1,"hoverGlowColor":"#00ff06","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.5px;--bbx-card-tilt-degree:15deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:#00ff06;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-bbx-bento-box alignwide has-contrast-background-color has-background" style="--bbx-box-grid-template-columns:repeat(4, 1fr);--bbx-box-grid-template-rows:repeat(2, 1fr);--bbx-box-grid-gap:1rem"><!-- wp:bbx/bento-card {"hoverEffect":"none","tiltDegree":15,"glowIntensity":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:15deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -121,8 +121,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","shadowIntensity":1,"hoverShadowColor":"#ff000033","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:1px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:#ff000033;--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","hoverShadowColor":"#ff000033","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:#ff000033;--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -135,8 +135,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"hoverEffect":"none","glowIntensity":1,"hoverGlowColor":"#3300ff","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:#3300ff;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:bbx/bento-card {"hoverEffect":"none","glowIntensity":1,"style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/3995905/pexels-photo-3995905.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -150,7 +150,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:bbx/bento-card -->
 
 <!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/947195/pexels-photo-947195.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -164,7 +164,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:bbx/bento-card -->
 
 <!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}}},"backgroundColor":"accent-1","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-1-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-1-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/884596/pexels-photo-884596.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -181,8 +181,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2025-02-13 12:45:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-02-13 12:45:06]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-02-13 14:19:14]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-02-13 14:19:14]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-02-14 18:16:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-02-14 18:16:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[bento-box-showcase]]></wp:post_name>
@@ -201,10 +201,10 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8881/?p=19</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:bbx/bento-box {"gridColumns":4,"gridRows":2,"align":"wide","backgroundColor":"contrast"} -->
-<div class="wp-block-bbx-bento-box alignwide has-contrast-background-color has-background" style="--bbx-box-grid-template-columns:repeat(4, 1fr);--bbx-box-grid-template-rows:repeat(2, 1fr);--bbx-box-grid-gap:1rem"><!-- wp:bbx/bento-card {"hoverEffect":"none","shadowIntensity":1,"tiltDegree":15,"glowIntensity":1,"hoverShadowColor":"#ffffff","hoverGlowColor":"#ff8800","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:1px;--bbx-card-tilt-degree:15deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:#ffffff;--bbx-card-hover-glow-color:#ff8800;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+		<content:encoded><![CDATA[<!-- wp:bbx/bento-box {"gridColumns":4,"gridRows":2,"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"contrast"} -->
+<div class="wp-block-bbx-bento-box alignwide has-contrast-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);--bbx-box-grid-template-columns:repeat(4, 1fr);--bbx-box-grid-template-rows:repeat(2, 1fr);--bbx-box-grid-gap:1rem"><!-- wp:bbx/bento-card {"hoverEffect":"shadow","tiltDegree":15,"shadowOffsetX":5,"shadowOffsetY":5,"hoverShadowColor":"#FFEE58","glowIntensity":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
+<div class="wp-block-bbx-bento-card hover-shadow has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:15deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:#FFEE58;--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1;--bbx-card-shadow-offset-x:5px;--bbx-card-shadow-offset-y:5px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"border":{"color":"#503AA8","radius":"10px"}}} -->
+<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" class="has-border-color" style="border-color:#503AA8;border-radius:10px;aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -216,9 +216,9 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"tilt","shadowIntensity":1,"tiltDegree":10,"hoverShadowColor":"#ff000033","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
-<div class="wp-block-bbx-bento-card hover-tilt has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:1px;--bbx-card-tilt-degree:10deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:#ff000033;--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
+<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"scale","scaleFactor":1.02,"tiltDegree":10,"hoverShadowColor":"#ff000033","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
+<div class="wp-block-bbx-bento-card hover-scale has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.02;--bbx-card-tilt-degree:10deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:#ff000033;--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"color":"#FFEE58","radius":"10px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" class="has-border-color" style="border-color:#FFEE58;border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -230,9 +230,9 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"hoverEffect":"rotate","glowIntensity":1,"hoverGlowColor":"#3300ff","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
-<div class="wp-block-bbx-bento-card hover-rotate has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:#3300ff;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/3995905/pexels-photo-3995905.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
+<!-- wp:bbx/bento-card {"hoverEffect":"rotate","rotationDegree":2,"glowIntensity":1,"style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
+<div class="wp-block-bbx-bento-card hover-rotate has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:2deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"10px"}},"borderColor":"accent-1"} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/3995905/pexels-photo-3995905.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" class="has-border-color has-accent-1-border-color" style="border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -244,9 +244,9 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"3d-lift","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-3d-lift has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/947195/pexels-photo-947195.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
+<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"glow","hoverGlowColorPrimary":"#9400d3","hoverGlowColorSecondary":"#ff00ff","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
+<div class="wp-block-bbx-bento-card hover-glow has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:#9400d3;--bbx-card-hover-glow-color-secondary:#ff00ff;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"border":{"radius":"10px"}},"borderColor":"accent-3"} -->
+<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="https://images.pexels.com/photos/947195/pexels-photo-947195.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" class="has-border-color has-accent-3-border-color" style="border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -258,9 +258,9 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"glow","glowIntensity":1,"hoverGlowColor":"#ff0000","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}}},"backgroundColor":"accent-1","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-glow has-accent-3-color has-accent-1-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:#ff0000;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/884596/pexels-photo-884596.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
+<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"glow","hoverGlowColorPrimary":"#ff00ff","hoverGlowColorSecondary":"#ff1493","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}}},"backgroundColor":"accent-1","textColor":"accent-3"} -->
+<div class="wp-block-bbx-bento-card hover-glow has-accent-3-color has-accent-1-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:#ff00ff;--bbx-card-hover-glow-color-secondary:#ff1493;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"color":"#503AA8","radius":"10px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/884596/pexels-photo-884596.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" class="has-border-color" style="border-color:#503AA8;border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
@@ -271,13 +271,17 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <p>Indulge in the exquisite flavors of Japanese cuisine, from sushi and ramen to tempura and matcha.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card --></div>
-<!-- /wp:bbx/bento-box -->]]></content:encoded>
+<!-- /wp:bbx/bento-box -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>19</wp:post_id>
 		<wp:post_date><![CDATA[2025-02-13 14:20:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-02-13 14:20:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-02-13 14:24:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-02-13 14:24:48]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-02-14 18:15:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-02-14 18:15:26]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[bento-box-showcase-with-hover-effects]]></wp:post_name>
@@ -297,8 +301,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<guid isPermaLink="false">http://localhost:8881/?p=24</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:bbx/bento-box {"gridColumns":4,"gridRows":2,"enableBlurEffect":true,"align":"wide","backgroundColor":"contrast"} -->
-<div class="wp-block-bbx-bento-box alignwide enable-blur has-contrast-background-color has-background" style="--bbx-box-grid-template-columns:repeat(4, 1fr);--bbx-box-grid-template-rows:repeat(2, 1fr);--bbx-box-grid-gap:1rem"><!-- wp:bbx/bento-card {"hoverEffect":"none","shadowIntensity":0.5,"tiltDegree":15,"glowIntensity":1,"hoverGlowColor":"#00ff06","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.5px;--bbx-card-tilt-degree:15deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:#00ff06;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-bbx-bento-box alignwide enable-blur has-contrast-background-color has-background" style="--bbx-box-grid-template-columns:repeat(4, 1fr);--bbx-box-grid-template-rows:repeat(2, 1fr);--bbx-box-grid-gap:1rem"><!-- wp:bbx/bento-card {"hoverEffect":"none","tiltDegree":15,"glowIntensity":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:15deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -311,8 +315,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","shadowIntensity":1,"hoverShadowColor":"#ff000033","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:1px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:#ff000033;--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","hoverShadowColor":"#ff000033","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:#ff000033;--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -325,8 +329,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:paragraph --></div>
 <!-- /wp:bbx/bento-card -->
 
-<!-- wp:bbx/bento-card {"hoverEffect":"none","glowIntensity":1,"hoverGlowColor":"#3300ff","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:#3300ff;--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:bbx/bento-card {"hoverEffect":"none","glowIntensity":1,"style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"backgroundColor":"accent-3","textColor":"accent-1"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-1-color has-accent-3-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:1px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 1;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/3995905/pexels-photo-3995905.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -340,7 +344,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:bbx/bento-card -->
 
 <!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}},"border":{"radius":"10px"}},"backgroundColor":"accent-2","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-2-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/947195/pexels-photo-947195.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -354,7 +358,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 <!-- /wp:bbx/bento-card -->
 
 <!-- wp:bbx/bento-card {"colSpan":2,"hoverEffect":"none","style":{"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}}},"backgroundColor":"accent-1","textColor":"accent-3"} -->
-<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-1-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05px;--bbx-card-shadow-intensity:0.2px;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:0.5px;--bbx-card-hover-shadow-color:rgba(0, 0, 0, 0.2);--bbx-card-hover-glow-color:rgba(0, 255, 255, 0.5);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-bbx-bento-card hover-none has-accent-3-color has-accent-1-background-color has-text-color has-background has-link-color" style="border-radius:10px;--bbx-card-rotation-degree:5deg;--bbx-card-scale-factor:1.05;--bbx-card-tilt-degree:5deg;--bbx-card-glow-intensity:15px;--bbx-card-hover-shadow-color:rgb(0, 0, 0);--bbx-card-hover-glow-color-primary:rgb(255, 0, 255);--bbx-card-hover-glow-color-secondary:rgb(0, 255, 255);--bbx-card-grid-row:span 1;--bbx-card-grid-column:span 2;--bbx-card-shadow-offset-x:0px;--bbx-card-shadow-offset-y:0px;--bbx-card-shadow-blur:0px;--bbx-card-shadow-spread:0px"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://images.pexels.com/photos/884596/pexels-photo-884596.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt=""/></figure>
 <!-- /wp:image -->
 
@@ -371,8 +375,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date><![CDATA[2025-02-13 14:28:45]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-02-13 14:28:45]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-02-13 14:28:45]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-02-13 14:28:45]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-02-14 18:00:27]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-02-14 18:00:27]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[bento-box-showcase-with-focus-effect]]></wp:post_name>
