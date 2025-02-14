@@ -25,7 +25,7 @@ Bento Box is a **WordPress block** that allows users to create **Bento layouts**
 
 ### 📥 **Manual Installation**
 
-1. Download the latest `.zip` from **[here](https://github.com/Hackkzy/bento-box/archive/refs/heads/main.zip)**.
+1. Download the latest `.zip` from the **[Release](https://github.com/Hackkzy/bento-box/releases)**.
 2. Upload it via **Plugins > Add New > Upload Plugin**.
 3. Activate the plugin in **Plugins > Installed Plugins**.
 
