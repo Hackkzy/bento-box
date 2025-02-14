@@ -33,8 +33,9 @@
 .wp-block-bbx-bento-card.hover-scale:hover {
 	transform: scale(var(--bbx-card-scale-factor, 1.05));
 }
-z .wp-block-bbx-bento-card.hover-rotate:hover {
+.wp-block-bbx-bento-card.hover-rotate:hover {
 	transform: rotate(var(--bbx-card-rotation-degree, 5deg));
+	z-index: 1;
 }
 
 .wp-block-bbx-bento-card.hover-3d-lift:hover {
@@ -48,11 +49,6 @@ z .wp-block-bbx-bento-card.hover-rotate:hover {
 }
 
 .wp-block-bbx-bento-card.hover-glow:hover {
-	// box-shadow: 0 0 10px
-	// 	var(
-	// 		--bbx-card-hover-glow-color,
-	// 		rgba(0, 255, 255, var(--bbx-card-glow-intensity, 0.5))
-	// 	);
 	box-shadow:
 		0 0 var(--bbx-card-glow-intensity) var(--bbx-card-hover-glow-color),
 		0 0 calc(var(--bbx-card-glow-intensity) * 2)

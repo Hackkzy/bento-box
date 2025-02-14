@@ -98,7 +98,7 @@ export default function SidebarSettings( {
 							setAttributes( { rotationDegree: newDegree } )
 						}
 						min={ 0 }
-						max={ 360 }
+						max={ 20 }
 						__next40pxDefaultSize
 						__nextHasNoMarginBottom
 					/>
