@@ -26,25 +26,41 @@
       "type": "number",
       "default": 1.05
     },
-    "shadowIntensity": {
-      "type": "number",
-      "default": 0.2
-    },
     "tiltDegree": {
       "type": "number",
       "default": 5
     },
-    "glowIntensity": {
+    "shadowOffsetX": {
       "type": "number",
-      "default": 0.5
+      "default": 0
+    },
+    "shadowOffsetY": {
+      "type": "number",
+      "default": 0
+    },
+    "shadowBlur": {
+      "type": "number",
+      "default": 0
+    },
+    "shadowSpread": {
+      "type": "number",
+      "default": 0
     },
     "hoverShadowColor": {
       "type": "string",
       "default": "rgba(0, 0, 0, 0.2)"
     },
-    "hoverGlowColor": {
+    "glowIntensity": {
+      "type": "number",
+      "default": 15
+    },
+    "hoverGlowColorPrimary": {
       "type": "string",
-      "default": "rgba(0, 255, 255, 0.5)"
+      "default": "rgb(255, 0, 255)"
+    },
+    "hoverGlowColorSecondary": {
+      "type": "string",
+      "default": "rgb(0, 255, 255)"
     }
   },
   "supports": {
