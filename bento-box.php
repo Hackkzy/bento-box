@@ -9,7 +9,7 @@
  * Author URI:        https://github.com/Hackkzy
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       bbx-bento-box
+ * Text Domain:       bento-box
  *
  * @package bbx-bento-box
  */
@@ -58,7 +58,7 @@ if ( ! defined( 'BBX_BASE_NAME' ) ) {
  * @return void
  */
 function bbx_set_script_translations() {
-	wp_set_script_translations( 'bbx-bento-box-script', 'bbx-bento-box' );
+	wp_set_script_translations( 'bbx-bento-box-script', 'bento-box' );
 }
 add_action( 'init', 'bbx_set_script_translations' );
 
@@ -75,7 +75,7 @@ function bbx_text_domain_loader() {
 		$mofile = BBX_PATH . 'languages/default.mo';
 	}
 
-	load_textdomain( 'bbx-bento-box', $mofile );
+	load_textdomain( 'bento-box', $mofile );
 }
 add_action( 'plugins_loaded', 'bbx_text_domain_loader' );
 

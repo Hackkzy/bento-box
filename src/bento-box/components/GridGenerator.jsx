@@ -35,7 +35,7 @@ export default function GridGenerator( { attributes, clientId } ) {
 	return (
 		<ToolbarButton
 			icon={ DiceIcon }
-			label={ __( 'Randomize grid', 'bbx-bento-box' ) }
+			label={ __( 'Randomize grid', 'bento-box' ) }
 			onClick={ handleRandomize }
 		/>
 	);

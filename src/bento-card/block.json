@@ -106,7 +106,7 @@
 		"core/code"
 	],
 	"parent": [ "bbx/bento-box" ],
-	"textdomain": "bbx-bento-box",
+	"textdomain": "bento-box",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",

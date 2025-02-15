@@ -31,9 +31,9 @@ export default function SidebarSettings( {
 
 	return (
 		<InspectorControls>
-			<PanelBody title={ __( 'Bento Card Settings', 'bbx-bento-box' ) }>
+			<PanelBody title={ __( 'Bento Card Settings', 'bento-box' ) }>
 				<RangeControl
-					label={ __( 'Column Span', 'bbx-bento-box' ) }
+					label={ __( 'Column Span', 'bento-box' ) }
 					value={ colSpan }
 					onChange={ ( newColSpan ) => {
 						setAttributes( { colSpan: newColSpan } );
@@ -44,7 +44,7 @@ export default function SidebarSettings( {
 					__nextHasNoMarginBottom
 				/>
 				<RangeControl
-					label={ __( 'Row Span', 'bbx-bento-box' ) }
+					label={ __( 'Row Span', 'bento-box' ) }
 					value={ rowSpan }
 					onChange={ ( newRowSpan ) => {
 						setAttributes( { rowSpan: newRowSpan } );
@@ -55,26 +55,26 @@ export default function SidebarSettings( {
 					__nextHasNoMarginBottom
 				/>
 			</PanelBody>
-			<PanelBody title={ __( 'Hover Settings', 'bbx-bento-box' ) }>
+			<PanelBody title={ __( 'Hover Settings', 'bento-box' ) }>
 				<SelectControl
-					label={ __( 'Hover Effect', 'bbx-bento-box' ) }
+					label={ __( 'Hover Effect', 'bento-box' ) }
 					value={ hoverEffect }
 					options={ [
-						{ label: __( 'None', 'bbx-bento-box' ), value: 'none' },
+						{ label: __( 'None', 'bento-box' ), value: 'none' },
 						{
-							label: __( 'Shadow', 'bbx-bento-box' ),
+							label: __( 'Shadow', 'bento-box' ),
 							value: 'shadow',
 						},
 						{
-							label: __( 'Scale', 'bbx-bento-box' ),
+							label: __( 'Scale', 'bento-box' ),
 							value: 'scale',
 						},
 						{
-							label: __( 'Rotate', 'bbx-bento-box' ),
+							label: __( 'Rotate', 'bento-box' ),
 							value: 'rotate',
 						},
-						{ label: __( 'Tilt', 'bbx-bento-box' ), value: 'tilt' },
-						{ label: __( 'Glow', 'bbx-bento-box' ), value: 'glow' },
+						{ label: __( 'Tilt', 'bento-box' ), value: 'tilt' },
+						{ label: __( 'Glow', 'bento-box' ), value: 'glow' },
 					] }
 					onChange={ ( newHoverEffect ) => {
 						setAttributes( { hoverEffect: newHoverEffect } );
@@ -84,7 +84,7 @@ export default function SidebarSettings( {
 				/>
 				{ hoverEffect === 'rotate' && (
 					<RangeControl
-						label={ __( 'Rotation Degree', 'bbx-bento-box' ) }
+						label={ __( 'Rotation Degree', 'bento-box' ) }
 						value={ rotationDegree }
 						onChange={ ( newDegree ) =>
 							setAttributes( { rotationDegree: newDegree } )
@@ -97,7 +97,7 @@ export default function SidebarSettings( {
 				) }
 				{ hoverEffect === 'scale' && (
 					<RangeControl
-						label={ __( 'Scale Factor', 'bbx-bento-box' ) }
+						label={ __( 'Scale Factor', 'bento-box' ) }
 						value={ scaleFactor }
 						onChange={ ( newScale ) =>
 							setAttributes( { scaleFactor: newScale } )
@@ -112,7 +112,7 @@ export default function SidebarSettings( {
 				{ hoverEffect === 'shadow' && (
 					<>
 						<RangeControl
-							label={ __( 'Shadow Offset X', 'bbx-bento-box' ) }
+							label={ __( 'Shadow Offset X', 'bento-box' ) }
 							value={ shadowOffsetX }
 							onChange={ ( newOffsetX ) =>
 								setAttributes( { shadowOffsetX: newOffsetX } )
@@ -121,7 +121,7 @@ export default function SidebarSettings( {
 							max={ 20 }
 						/>
 						<RangeControl
-							label={ __( 'Shadow Offset Y', 'bbx-bento-box' ) }
+							label={ __( 'Shadow Offset Y', 'bento-box' ) }
 							value={ shadowOffsetY }
 							onChange={ ( newOffsetY ) =>
 								setAttributes( { shadowOffsetY: newOffsetY } )
@@ -130,7 +130,7 @@ export default function SidebarSettings( {
 							max={ 20 }
 						/>
 						<RangeControl
-							label={ __( 'Shadow Blur', 'bbx-bento-box' ) }
+							label={ __( 'Shadow Blur', 'bento-box' ) }
 							value={ shadowBlur }
 							onChange={ ( newBlur ) =>
 								setAttributes( { shadowBlur: newBlur } )
@@ -139,7 +139,7 @@ export default function SidebarSettings( {
 							max={ 20 }
 						/>
 						<RangeControl
-							label={ __( 'Shadow Spread', 'bbx-bento-box' ) }
+							label={ __( 'Shadow Spread', 'bento-box' ) }
 							value={ shadowSpread }
 							onChange={ ( newSpread ) =>
 								setAttributes( { shadowSpread: newSpread } )
@@ -153,7 +153,7 @@ export default function SidebarSettings( {
 									value: hoverShadowColor,
 									label: __(
 										'Shadow Color',
-										'bbx-bento-box'
+										'bento-box'
 									),
 									onChange: ( newColor ) =>
 										setAttributes( {
@@ -166,7 +166,7 @@ export default function SidebarSettings( {
 				) }
 				{ hoverEffect === 'tilt' && (
 					<RangeControl
-						label={ __( 'Tilt Degree', 'bbx-bento-box' ) }
+						label={ __( 'Tilt Degree', 'bento-box' ) }
 						value={ tiltDegree }
 						onChange={ ( newTilt ) =>
 							setAttributes( { tiltDegree: newTilt } )
@@ -180,7 +180,7 @@ export default function SidebarSettings( {
 				{ hoverEffect === 'glow' && (
 					<>
 						<RangeControl
-							label={ __( 'Glow Intensity', 'bbx-bento-box' ) }
+							label={ __( 'Glow Intensity', 'bento-box' ) }
 							value={ glowIntensity }
 							onChange={ ( newGlow ) =>
 								setAttributes( { glowIntensity: newGlow } )
@@ -192,11 +192,11 @@ export default function SidebarSettings( {
 							__nextHasNoMarginBottom
 						/>
 						<PanelColorSettings
-							title={ __( 'Glow Colors', 'bbx-bento-box' ) }
+							title={ __( 'Glow Colors', 'bento-box' ) }
 							colorSettings={ [
 								{
 									value: hoverGlowColorPrimary,
-									label: __( 'Primary', 'bbx-bento-box' ),
+									label: __( 'Primary', 'bento-box' ),
 									onChange: ( newColor ) =>
 										setAttributes( {
 											hoverGlowColorPrimary: newColor,
@@ -204,7 +204,7 @@ export default function SidebarSettings( {
 								},
 								{
 									value: hoverGlowColorSecondary,
-									label: __( 'Secondary', 'bbx-bento-box' ),
+									label: __( 'Secondary', 'bento-box' ),
 									onChange: ( newColor ) =>
 										setAttributes( {
 											hoverGlowColorSecondary: newColor,

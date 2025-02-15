@@ -50,7 +50,7 @@ export default function Edit( { attributes, setAttributes, context } ) {
 		[ 'core/image' ],
 		[
 			'core/paragraph',
-			{ placeholder: __( 'Add card content here…', 'bbx-bento-box' ) },
+			{ placeholder: __( 'Add card content here…', 'bento-box' ) },
 		],
 	];
 

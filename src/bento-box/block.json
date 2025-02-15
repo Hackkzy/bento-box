@@ -64,7 +64,7 @@
 		"bbx/bento-box-enable-blur": "enableBlurEffect"
 	},
 	"allowedBlocks": [ "bbx/bento-card" ],
-	"textdomain": "bbx-bento-box",
+	"textdomain": "bento-box",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",

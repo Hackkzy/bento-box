@@ -19,9 +19,9 @@ export default function SidebarSettings( { attributes, setAttributes } ) {
 	return (
 		<InspectorControls>
 			<Panel>
-				<PanelBody title={ __( 'Grid Settings', 'bbx-bento-box' ) }>
+				<PanelBody title={ __( 'Grid Settings', 'bento-box' ) }>
 					<RangeControl
-						label={ __( 'Number of Columns', 'bbx-bento-box' ) }
+						label={ __( 'Number of Columns', 'bento-box' ) }
 						value={ gridColumns }
 						onChange={ ( val ) =>
 							setAttributes( { gridColumns: val } )
@@ -32,7 +32,7 @@ export default function SidebarSettings( { attributes, setAttributes } ) {
 						__next40pxDefaultSize
 					/>
 					<RangeControl
-						label={ __( 'Number of Rows', 'bbx-bento-box' ) }
+						label={ __( 'Number of Rows', 'bento-box' ) }
 						value={ gridRows }
 						onChange={ ( val ) =>
 							setAttributes( { gridRows: val } )
@@ -43,7 +43,7 @@ export default function SidebarSettings( { attributes, setAttributes } ) {
 						__next40pxDefaultSize
 					/>
 					<UnitControl
-						label={ __( 'Grid Gap', 'bbx-bento-box' ) }
+						label={ __( 'Grid Gap', 'bento-box' ) }
 						value={ gridGap }
 						onChange={ ( val ) =>
 							setAttributes( { gridGap: val } )
@@ -53,7 +53,7 @@ export default function SidebarSettings( { attributes, setAttributes } ) {
 						__next40pxDefaultSize
 					/>
 					<ToggleControl
-						label={ __( 'Focus on Hovered Card', 'bbx-bento-box' ) }
+						label={ __( 'Focus on Hovered Card', 'bento-box' ) }
 						checked={ enableBlurEffect }
 						onChange={ ( value ) =>
 							setAttributes( { enableBlurEffect: value } )
