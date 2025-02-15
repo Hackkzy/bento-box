@@ -151,10 +151,7 @@ export default function SidebarSettings( {
 							colorSettings={ [
 								{
 									value: hoverShadowColor,
-									label: __(
-										'Shadow Color',
-										'bento-box'
-									),
+									label: __( 'Shadow Color', 'bento-box' ),
 									onChange: ( newColor ) =>
 										setAttributes( {
 											hoverShadowColor: newColor,
