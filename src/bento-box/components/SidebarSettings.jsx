@@ -3,6 +3,7 @@
  */
 import { __ } from '@wordpress/i18n';
 import { InspectorControls } from '@wordpress/block-editor';
+/* eslint-disable @wordpress/no-unsafe-wp-apis */
 import {
 	Panel,
 	PanelBody,
@@ -10,6 +11,7 @@ import {
 	ToggleControl,
 	__experimentalUnitControl as UnitControl,
 } from '@wordpress/components';
+/* eslint-enable @wordpress/no-unsafe-wp-apis */
 
 export default function SidebarSettings( { attributes, setAttributes } ) {
 	const { gridColumns, gridRows, gridGap, enableBlurEffect } = attributes;

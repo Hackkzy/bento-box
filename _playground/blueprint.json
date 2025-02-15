@@ -3,26 +3,25 @@
 	"landingPage": "/wp-admin/edit.php",
 	"login": true,
 	"steps": [
-	  {
-		"step": "installPlugin",
-		"pluginData": {
-		  "resource": "url",
-		  "url": "https://github-proxy.com/proxy/?repo=Hackkzy/bento-box&branch=main"
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "url",
+				"url": "https://github-proxy.com/proxy/?repo=Hackkzy/bento-box&branch=main"
+			},
+			"options": {
+				"activate": true
+			}
 		},
-		"options": {
-		  "activate": true
+		{
+			"step": "resetData"
+		},
+		{
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/Hackkzy/bento-box/refs/heads/main/_playground/export.xml"
+			}
 		}
-	  },
-	  {
-		"step": "resetData"
-	  },
-	  {
-		"step": "importWxr",
-		"file": {
-		  "resource": "url",
-		  "url": "https://raw.githubusercontent.com/Hackkzy/bento-box/refs/heads/main/_playground/export.xml"
-		}
-	  }
 	]
-  }
-  
+}

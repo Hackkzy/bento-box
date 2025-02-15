@@ -10,6 +10,7 @@
 
 // Tablet view: Adjust grid spans
 @media (max-width: 768px) {
+
 	.wp-block-bbx-bento-card {
 		grid-column: span 2;
 		grid-row: auto;
@@ -18,6 +19,7 @@
 
 // Mobile view: Single column layout
 @media (max-width: 480px) {
+
 	.wp-block-bbx-bento-card {
 		grid-column: span 1;
 		grid-row: auto;
@@ -26,15 +28,18 @@
 
 // Shadow hover effect
 .wp-block-bbx-bento-card.hover-shadow:hover {
-	box-shadow: var(--bbx-card-shadow-offset-x, 0)
+	box-shadow:
+		var(--bbx-card-shadow-offset-x, 0)
 		var(--bbx-card-shadow-offset-y, 0) var(--bbx-card-shadow-blur, 0)
 		var(--bbx-card-shadow-spread, 0)
 		var(--bbx-card-hover-shadow-color, "#000");
 }
+
 .wp-block-bbx-bento-card.hover-scale:hover {
 	transform: scale(var(--bbx-card-scale-factor, 1.05));
 	z-index: 1;
 }
+
 .wp-block-bbx-bento-card.hover-rotate:hover {
 	transform: rotate(var(--bbx-card-rotation-degree, 5deg));
 	z-index: 1;
@@ -42,7 +47,8 @@
 
 // Tilt hover effect
 .wp-block-bbx-bento-card.hover-tilt:hover {
-	transform: rotateX(var(--bbx-card-tilt-degree, 5deg))
+	transform:
+		rotateX(var(--bbx-card-tilt-degree, 5deg))
 		rotateY(var(--bbx-card-tilt-degree, 5deg));
 	z-index: 1;
 }
@@ -54,23 +60,21 @@
 	inset: -5px;
 	border-radius: 12px;
 	z-index: -1;
-	background: linear-gradient(
-		45deg,
-		var(--bbx-card-hover-glow-color-primary),
-		var(--bbx-card-hover-glow-color-secondary),
-		var(--bbx-card-hover-glow-color-primary)
-	);
+	background:
+ linear-gradient(45deg, var(--bbx-card-hover-glow-color-primary), var(--bbx-card-hover-glow-color-secondary), var(--bbx-card-hover-glow-color-primary));
 	filter: blur(calc(var(--bbx-card-glow-intensity) / 1.5));
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
 }
+
 .wp-block-bbx-bento-card.hover-glow:hover::before {
 	opacity: 1;
 }
+
 .wp-block-bbx-bento-card.hover-glow:hover {
 	box-shadow:
 		0 0 var(--bbx-card-glow-intensity)
-			var(--bbx-card-hover-glow-color-primary),
+		var(--bbx-card-hover-glow-color-primary),
 		0 0 calc(var(--bbx-card-glow-intensity) * 2)
-			var(--bbx-card-hover-glow-color-secondary);
+		var(--bbx-card-hover-glow-color-secondary);
 }
