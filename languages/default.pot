@@ -9,10 +9,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-14T17:52:27+00:00\n"
+"POT-Creation-Date: 2025-02-15T07:41:10+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
-"X-Domain: bbx-bento-box\n"
+"X-Domain: bento-box\n"
 
 #. Plugin Name of the plugin
 #: bento-box.php
@@ -35,27 +35,27 @@ msgid "https://github.com/Hackkzy"
 msgstr ""
 
 #: build/bento-box/index.js:1
-#: src/bento-box/components/SidebarSettings.jsx:20
+#: src/bento-box/components/SidebarSettings.jsx:22
 msgid "Grid Settings"
 msgstr ""
 
 #: build/bento-box/index.js:1
-#: src/bento-box/components/SidebarSettings.jsx:22
+#: src/bento-box/components/SidebarSettings.jsx:24
 msgid "Number of Columns"
 msgstr ""
 
 #: build/bento-box/index.js:1
-#: src/bento-box/components/SidebarSettings.jsx:33
+#: src/bento-box/components/SidebarSettings.jsx:35
 msgid "Number of Rows"
 msgstr ""
 
 #: build/bento-box/index.js:1
-#: src/bento-box/components/SidebarSettings.jsx:44
+#: src/bento-box/components/SidebarSettings.jsx:46
 msgid "Grid Gap"
 msgstr ""
 
 #: build/bento-box/index.js:1
-#: src/bento-box/components/SidebarSettings.jsx:54
+#: src/bento-box/components/SidebarSettings.jsx:56
 msgid "Focus on Hovered Card"
 msgstr ""
 
@@ -65,117 +65,117 @@ msgid "Randomize grid"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:38
+#: src/bento-card/components/SidebarSettings.jsx:34
 msgid "Bento Card Settings"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:40
+#: src/bento-card/components/SidebarSettings.jsx:36
 msgid "Column Span"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:51
+#: src/bento-card/components/SidebarSettings.jsx:47
 msgid "Row Span"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:62
+#: src/bento-card/components/SidebarSettings.jsx:58
 msgid "Hover Settings"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:64
+#: src/bento-card/components/SidebarSettings.jsx:60
 msgid "Hover Effect"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:67
+#: src/bento-card/components/SidebarSettings.jsx:63
 msgid "None"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:69
+#: src/bento-card/components/SidebarSettings.jsx:65
 msgid "Shadow"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:73
+#: src/bento-card/components/SidebarSettings.jsx:69
 msgid "Scale"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:77
+#: src/bento-card/components/SidebarSettings.jsx:73
 msgid "Rotate"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:80
+#: src/bento-card/components/SidebarSettings.jsx:76
 msgid "Tilt"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:81
+#: src/bento-card/components/SidebarSettings.jsx:77
 msgid "Glow"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:91
+#: src/bento-card/components/SidebarSettings.jsx:87
 msgid "Rotation Degree"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:104
+#: src/bento-card/components/SidebarSettings.jsx:100
 msgid "Scale Factor"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:119
+#: src/bento-card/components/SidebarSettings.jsx:115
 msgid "Shadow Offset X"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:128
+#: src/bento-card/components/SidebarSettings.jsx:124
 msgid "Shadow Offset Y"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:137
+#: src/bento-card/components/SidebarSettings.jsx:133
 msgid "Shadow Blur"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:146
+#: src/bento-card/components/SidebarSettings.jsx:142
 msgid "Shadow Spread"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:158
+#: src/bento-card/components/SidebarSettings.jsx:154
 msgid "Shadow Color"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:173
+#: src/bento-card/components/SidebarSettings.jsx:169
 msgid "Tilt Degree"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:187
+#: src/bento-card/components/SidebarSettings.jsx:183
 msgid "Glow Intensity"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:199
+#: src/bento-card/components/SidebarSettings.jsx:195
 msgid "Glow Colors"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:203
+#: src/bento-card/components/SidebarSettings.jsx:199
 msgid "Primary"
 msgstr ""
 
 #: build/bento-card/index.js:1
-#: src/bento-card/components/SidebarSettings.jsx:211
+#: src/bento-card/components/SidebarSettings.jsx:207
 msgid "Secondary"
 msgstr ""
 
