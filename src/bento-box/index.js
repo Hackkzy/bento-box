@@ -1,5 +1,7 @@
+/**
+ * WordPress dependencies
+ */
 import { registerBlockType } from '@wordpress/blocks';
-import BlockIcon from './components/BlockIcon';
 
 /**
  * Internal dependencies
@@ -7,6 +9,7 @@ import BlockIcon from './components/BlockIcon';
 import Edit from './edit';
 import save from './save';
 import metadata from './block.json';
+import BlockIcon from './components/BlockIcon';
 import './style.scss';
 
 registerBlockType( metadata.name, {

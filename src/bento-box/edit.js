@@ -27,7 +27,7 @@ export default function Edit( { attributes, setAttributes, clientId } ) {
 		},
 	} );
 
-	// Gets inner blocks array)
+	// Gets inner blocks of clientId. 
 	const innerBlocks = useSelect(
 		( select ) =>
 			select( 'core/block-editor' ).getBlock( clientId ).innerBlocks,
