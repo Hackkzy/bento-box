@@ -1,5 +1,5 @@
 === Bento Box ===
-Contributors:      hackky404
+Contributors:      hackkzy404
 Tags:              bento grid, bento layout, grid layout, block
 Requires at least: 6.5
 Tested up to:      6.7
