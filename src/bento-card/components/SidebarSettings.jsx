@@ -119,6 +119,8 @@ export default function SidebarSettings( {
 							}
 							min={ -20 }
 							max={ 20 }
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
 						/>
 						<RangeControl
 							label={ __( 'Shadow Offset Y', 'bento-box' ) }
@@ -128,6 +130,8 @@ export default function SidebarSettings( {
 							}
 							min={ -20 }
 							max={ 20 }
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
 						/>
 						<RangeControl
 							label={ __( 'Shadow Blur', 'bento-box' ) }
@@ -137,6 +141,8 @@ export default function SidebarSettings( {
 							}
 							min={ 0 }
 							max={ 20 }
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
 						/>
 						<RangeControl
 							label={ __( 'Shadow Spread', 'bento-box' ) }
@@ -146,6 +152,8 @@ export default function SidebarSettings( {
 							}
 							min={ 0 }
 							max={ 20 }
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
 						/>
 						<PanelColorSettings
 							colorSettings={ [
