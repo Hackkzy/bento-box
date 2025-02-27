@@ -1,13 +1,17 @@
 .distignore
 .nvmrc
+.gitignore
+.editorconfig
 composer.json
 composer.lock
 Gruntfile.js
 package.json
 package-lock.json
+bun.lock
 webpack.config.js
 
 .git/
 .github/
 src/
 node_modules/
+_playground/
