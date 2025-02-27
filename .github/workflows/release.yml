@@ -1,10 +1,7 @@
 name: 🚀 Build & Release
 on:
-    push:
-        tags:
-            - 'v*' # Runs when you push a tag like "v1.0.0"
-permissions:
-    contents: write
+    release:
+        types: [released]
 
 jobs:
     build:
@@ -12,12 +9,12 @@ jobs:
 
         steps:
             - name: 📥 Checkout Repository
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: 🛠️ Set Up Node.js
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
-                  node-version: 18
+                  node-version: 20
 
             - name: 📦 Install Dependencies
               run: npm install
@@ -25,18 +22,19 @@ jobs:
             - name: 🔨 Build Plugin
               run: npm run build
 
-            - name: 📦 Generate Plugin ZIP
-              run: npm run plugin-zip
-
-            - name: 🚀 Create GitHub Release
-              id: create_release
-              uses: softprops/action-gh-release@v1
+            - name: 🚀 Deploy to WordPress Plugin Directory
+              id: deploy
+              uses: 10up/action-wordpress-plugin-deploy@stable
               with:
-                  tag_name: ${{ github.ref_name }}
-                  name: 'Bento Box ${{ github.ref_name }}'
-                  body: '🚀 New release of Bento Box!'
-                  draft: false
-                  prerelease: false
-                  files: bento-box.zip
+                  generate-zip: true
+              env:
+                  SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+                  SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+
+            - name: ⤴️ Upload release asset
+              id: create_release
+              uses: softprops/action-gh-release@v2
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  files: ${{ github.workspace }}/${{ github.event.repository.name }}.zip
