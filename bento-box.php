@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Bento Box
  * Description:       A customizable grid block lets users create Bento Layout in block editor.
- * Version:           1.0.1
+ * Version:           1.1.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Hackkzy
@@ -27,7 +27,7 @@ if ( ! defined( 'BENTOBOX_VERSION' ) ) {
 	/**
 	 * The version of the plugin.
 	 */
-	define( 'BENTOBOX_VERSION', '1.0.1' );
+	define( 'BENTOBOX_VERSION', '1.1.0' );
 }
 
 if ( ! defined( 'BENTOBOX_PATH' ) ) {
