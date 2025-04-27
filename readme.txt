@@ -4,7 +4,7 @@ Tags:              bento grid, bento layout, grid layout, block
 Requires at least: 6.5
 Tested up to:      6.7
 Requires PHP:      7.4
-Stable tag:        1.0.1
+Stable tag:        1.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,8 @@ Bento Box is a customizable WordPress block plugin that lets users create **Bent
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
 == Changelog ==
+= 1.1.0 =
+* New Feature: You can now add Button, Quote, Code block, and Video block inside Bento Box.
 = 1.0.1 =
 * Minor bug fixes.
 = 1.0.0 =

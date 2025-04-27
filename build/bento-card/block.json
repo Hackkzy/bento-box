@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "bbx/bento-card",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "Bento Card",
   "category": "widgets",
   "example": {},
@@ -109,7 +109,11 @@
     "core/heading",
     "core/paragraph",
     "core/cover",
-    "core/code"
+    "core/code",
+    "core/buttons",
+    "core/quote",
+    "core/video",
+    "core/embed"
   ],
   "parent": [
     "bbx/bento-box"

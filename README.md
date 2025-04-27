@@ -48,13 +48,17 @@ Try Bento Box instantly in WordPress Playground:
 
 ## 📜 Changelog
 
+### **v1.1.0**
+
+- New Feature: You can now add Button, Quote, Code block, and Video block inside Bento Box.
+
 ### **v1.0.1**
 
--   Minor bug fixes.
+- Minor bug fixes.
 
 ### **v1.0.0**
 
--   Initial release.
+- Initial release.
 
 ---
 
