@@ -106,7 +106,8 @@
 		"core/code",
 		"core/buttons",
 		"core/quote",
-		"core/video"
+		"core/video",
+		"core/embed"
 	],
 	"parent": [ "bbx/bento-box" ],
 	"textdomain": "bento-box",
